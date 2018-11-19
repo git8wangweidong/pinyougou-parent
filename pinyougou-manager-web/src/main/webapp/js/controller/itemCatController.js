@@ -111,7 +111,9 @@ app.controller('itemCatController' ,function($scope,$controller   ,itemCatServic
     $scope.findItemCatList = function () {
         itemCatService.findAll().success(
             function (response) {
-
+                for(var i=0;i<response.length;i++){
+                    $scope.itemCatList[response[i].id ]=response[i].name;
+                }
             }
         )
     }

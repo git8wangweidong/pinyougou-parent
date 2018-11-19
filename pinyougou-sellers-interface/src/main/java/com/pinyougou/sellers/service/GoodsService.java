@@ -65,5 +65,11 @@ public interface GoodsService {
 	 * @param goods
 	 */
 	public void saveGood(Goods goods);
-	
+
+	/**
+	 * * 审核商品
+	 * @param ids
+	 * @param status
+	 */
+	public void updateStatus(Long[] ids, String status);
 }
