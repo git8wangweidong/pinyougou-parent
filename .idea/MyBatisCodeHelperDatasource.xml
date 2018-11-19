@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="activeDatabaseInfo">
+      <NewDatabaseInfo>
+        <option name="database" value="pinyougoudb" />
+        <option name="databaseType" value="MySql" />
+        <option name="password" value="root" />
+        <option name="url" value="localhost:3306" />
+        <option name="userName" value="root" />
+      </NewDatabaseInfo>
+    </option>
+    <option name="databaseInfos">
+      <list>
+        <NewDatabaseInfo>
+          <option name="database" value="pinyougoudb" />
+          <option name="databaseType" value="MySql" />
+          <option name="password" value="root" />
+          <option name="url" value="localhost:3306" />
+          <option name="userName" value="root" />
+        </NewDatabaseInfo>
+      </list>
+    </option>
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="javaMapperPackage" value="com.pinyougou.dao" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/pinyougou-dao/src/main/java" />
+        <option name="javaModelPackage" value="com.pinyougou.domain" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/pinyougou-dao/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="pinyougou-dao" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="pinyougou-dao">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.pinyougou.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/pinyougou-dao/src/main/java" />
+                  <option name="javaModelPacakge" value="com.pinyougou.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/pinyougou-dao/src/main/java" />
+                  <option name="xmlPackage" value="com.pinyougou.dao" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/pinyougou-dao/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="pinyougoudb:tb_address">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbAddress" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_areas">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbAreas" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_brand">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbBrand" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_cities">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbCities" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_content">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbContent" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_content_category">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbContentCategory" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_freight_template">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbFreightTemplate" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_goods">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbGoods" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_goods_desc">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbGoodsDesc" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_item">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbItem" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_item_cat">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbItemCat" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_order">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbOrder" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_order_item">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbOrderItem" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_pay_log">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbPayLog" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_provinces">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbProvinces" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_seckill_goods">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbSeckillGoods" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_seckill_order">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbSeckillOrder" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_seller">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbSeller" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_specification">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbSpecification" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_specification_option">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbSpecificationOption" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_type_template">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbTypeTemplate" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="pinyougoudb:tb_user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="TbUser" />
+                  <option name="moduleName" value="pinyougou-dao" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useExample" value="true" />
+        <option name="xmlMapperPackage" value="com.pinyougou.dao" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/pinyougou-dao/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
